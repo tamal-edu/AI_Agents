@@ -139,9 +139,7 @@ The app requires the following environment variables to be set in a `.env` file:
 
 ---
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -157,4 +155,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or feedback, please contact [Your Name] at [Your Email].
+For questions or feedback, please contact the owner of this repo or create an issue.
