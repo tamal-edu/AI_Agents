@@ -13,9 +13,8 @@ Agentic GenAI App is a Streamlit-based application that leverages multiple AI ag
 6. [Dependencies](#dependencies)
 7. [Environment Variables](#environment-variables)
 8. [Customization](#customization)
-9. [License](#license)
-10. [Acknowledgments](#acknowledgments)
-11. [Contact](#contact)
+9. [Acknowledgments](#acknowledgments)
+10. [Contact](#contact)
 
 ---
 
