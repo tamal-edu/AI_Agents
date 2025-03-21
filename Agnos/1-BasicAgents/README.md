@@ -13,9 +13,8 @@ Agentic GenAI App is a Streamlit-based application that leverages multiple AI ag
 6. [Dependencies](#dependencies)
 7. [Environment Variables](#environment-variables)
 8. [Customization](#customization)
-9. [License](#license)
-10. [Acknowledgments](#acknowledgments)
-11. [Contact](#contact)
+9. [Acknowledgments](#acknowledgments)
+10. [Contact](#contact)
 
 ---
 
@@ -139,9 +138,7 @@ The app requires the following environment variables to be set in a `.env` file:
 
 ---
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -157,4 +154,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
+<<<<<<< HEAD
 For questions or feedback, please contact the owner of this repo or create an issue.
+=======
+For questions or feedback, please contact the owner of this repo or create an issue.
+>>>>>>> 5b5621cd4026cce3bb0a14cb3f79be10e7e7168b
