@@ -1459,7 +1459,7 @@ finance_agent = Agent(
         stock_fundamentals=True,
         company_info=True
     )],
-    instructions="Coordinate with other agents to find the symbol/ticker of a certain entity from the internet if you are unable to know. Use tables to display data and always include sources.",
+    instructions="Coordinate with other agents if you donot unserstand something and to find the closest symbol/ticker of a certain entity from the internet if you are unable to know. Also Use tables to display data and always include sources.",
     show_tool_calls=True,
     markdown=True,
 )
