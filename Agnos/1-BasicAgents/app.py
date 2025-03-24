@@ -1574,7 +1574,7 @@ def sidebar_panel(agent_name: str):
             st.session_state["conversation_history"][agent_name] = []
             st.sidebar.success("History cleared.")
     else:  # Dashboard
-        st.sidebar.header("Dashboard")
+        st.sidebar.header("Logs/Telemetry")
         # Show metrics: total queries and log entries.
         total_queries = 0
         logs = st.session_state.get("agent_logs", {}).get(agent_name, [])
