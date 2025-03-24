@@ -1838,7 +1838,7 @@ def get_agent_response_with_memory(agent_name: str, prompt: str, stream: bool = 
 # 7. Sidebar with Chat History and Logs
 # ----------------------------------------------------------------
 def sidebar_panel(agent_name: str):
-    panel = st.sidebar.radio("Select Panel", options=["Chat History", "Dashboard"])
+    panel = st.sidebar.radio("Select Panel", options=["Chat History", "Telemetry"])
     if panel == "Chat History":
         st.sidebar.header("Chat History")
         if agent_name in st.session_state.get("conversation_history", {}):
