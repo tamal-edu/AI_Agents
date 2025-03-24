@@ -1874,8 +1874,8 @@ def main():
     st.title("Agentic GenAI App")
     st.markdown(
         "This app is an agentic generative AI system built with **Groq**, **Agno**, and **Streamlit**. "
-        "It includes conversation memory, duplicate query lookup, and a Telemetry Option inspired by Phidata's (Now Agnos) ideas. "
-        "The Team Agent now coordinates all subordinate agents."
+        "It includes conversation memory, duplicate query lookup, and Telemetry inspired by Phidata's(Agnos) ideas. "
+        "The Team Agent now coordinates all subordinate agents.\n\n"
     )
 
     # Agent selection.
