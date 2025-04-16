@@ -584,7 +584,7 @@ knowledge_base = load_kb()
 web_agent = Agent(
     name="Web Agent",
     role="Search the web for information",
-    model=Groq(id="llama-3.3-70b-versatile"),
+    model=Groq(id="qwen-qwq-32b"),
     tools=[DuckDuckGoTools()],
     instructions="Always include the sources.",
     show_tool_calls=True,
@@ -595,7 +595,7 @@ web_agent = Agent(
 finance_agent = Agent(
     name="Finance Agent",
     role="Get financial data",
-    model=Groq(id="llama-3.3-70b-versatile"),
+    model=Groq(id="qwen-qwq-32b"),
     tools=[YFinanceTools(
         stock_price=True,
         analyst_recommendations=True,
@@ -612,7 +612,7 @@ finance_agent = Agent(
 chef_agent = Agent(
     name="Chef Agent",
     description="You are a Thai cuisine expert!",
-    model=Groq(id="llama-3.3-70b-versatile"),
+    model=Groq(id="qwen-qwq-32b"),
     instructions=[
         "Search your knowledge base for Thai recipes.",
         "If the question is better suited for the web, search the web to fill in gaps.",
