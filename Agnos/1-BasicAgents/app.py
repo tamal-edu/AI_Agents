@@ -628,7 +628,7 @@ chef_agent = Agent(
 # 5D. Team Agent combining all available agents (Web, Finance, Chef)
 agent_team = Agent(
     team=[web_agent, finance_agent, chef_agent],
-    model=Groq(id="llama-3.3-70b-versatile"),
+    model=Groq(id="qwen-qwq-32b"),
     instructions=[
         "Always include sources and links.",
         "Use tables to display data.",
